@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TCG Machines Odoo User Guide</title>
+<style>
+:root{--orange:#ff7a00;--purple:#a66cff;--purple2:#5a28d8;--bg:#06050a;--panel:rgba(15,12,24,.88);--line:rgba(166,108,255,.55);--text:#fff;--muted:rgba(255,255,255,.76)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;background:radial-gradient(circle at 20% 0%,rgba(166,108,255,.22),transparent 35%),linear-gradient(180deg,#06050a,#0b090f 55%,#050505);color:var(--text)}
+a{color:inherit}.wrap{width:min(1180px,calc(100vw - 28px));margin:0 auto;padding:24px 0 44px}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;position:sticky;top:0;z-index:10;padding:12px 0;background:linear-gradient(180deg,rgba(6,5,10,.98),rgba(6,5,10,.72));backdrop-filter:blur(12px)}.brand p{margin:0;color:#ffbd7d;text-transform:uppercase;font-weight:900;letter-spacing:.16em;font-size:12px}.brand h1{margin:4px 0 0;font-size:clamp(28px,5vw,56px);line-height:.9;text-transform:uppercase}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 16px;text-decoration:none;font-weight:950;text-transform:uppercase;letter-spacing:.04em;border:1px solid rgba(255,211,165,.8);background:linear-gradient(180deg,#ffd6aa,#ff7a00);color:#17100a;box-shadow:0 0 24px rgba(255,122,0,.28)}.btn.purple{border-color:rgba(230,216,255,.92);background:linear-gradient(180deg,#eadfff,#a66cff 72%,#6e32e5);color:#160a24;box-shadow:0 0 30px rgba(166,108,255,.42)}.hero{margin-top:22px;border:1px solid var(--line);border-radius:30px;padding:24px;background:linear-gradient(180deg,rgba(22,17,36,.9),rgba(9,8,14,.92));box-shadow:0 0 70px rgba(166,108,255,.20)}.hero p{color:var(--muted);font-size:18px;line-height:1.55;max-width:850px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:22px 0}.card{position:relative;border:1px solid rgba(166,108,255,.55);border-radius:22px;padding:18px;background:var(--panel);box-shadow:0 0 24px rgba(166,108,255,.16)}.card::before{content:'Odoo';position:absolute;right:14px;top:14px;border:1px solid rgba(229,216,255,.72);border-radius:999px;padding:5px 9px;background:rgba(69,29,150,.72);font-size:11px;font-weight:950;letter-spacing:.08em;text-transform:uppercase}.card h2{margin:0 82px 8px 0;color:#e0cbff;font-size:20px;text-transform:uppercase}.card p{margin:0 0 14px;color:var(--muted);line-height:1.45}.card .btn{font-size:13px;padding:10px 13px}.viewer{margin-top:26px;border:1px solid rgba(255,122,0,.42);border-radius:24px;overflow:hidden;background:#111;box-shadow:0 0 50px rgba(0,0,0,.45)}.viewer-head{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:14px 16px;background:rgba(0,0,0,.72)}.viewer-head h2{margin:0;color:#ffbd7d;text-transform:uppercase}.viewer iframe{display:block;width:100%;height:78vh;border:0;background:#222}.note{margin-top:16px;color:var(--muted);font-size:14px}.footer{text-align:center;color:rgba(255,255,255,.55);padding:28px 0}@media(max-width:860px){.top{position:static;align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.viewer iframe{height:70vh}.btn{width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><p>TCG Machines</p><h1>Odoo User Guide</h1></div>
+    <a class="btn" href="index.html">Back to Dashboard</a>
+  </header>
+  <section class="hero">
+    <p>This guide is now part of the dashboard package. Use the matching section from the purple Odoo buttons in the production pages. The PDF is also embedded below for floor reference.</p>
+    <a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf" target="_blank" rel="noopener">Open Full PDF</a>
+  </section>
+  <section class="grid" aria-label="Odoo guide sections">
+    <article class="card" id="odoo-setup"><h2>Odoo Setup</h2><p>3-step manufacturing, work centers, BoMs, routes, and quality control points.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=2" target="_blank" rel="noopener">PDF Page 2</a></article>
+    <article class="card" id="production-lead"><h2>Production Lead</h2><p>Create and confirm the 10-machine manufacturing order.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=3" target="_blank" rel="noopener">PDF Page 3</a></article>
+    <article class="card" id="inventory-kitting"><h2>Inventory / Kitting</h2><p>WH/PC pick components, Done quantities, lots/serials, and Validate after physical movement.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=4" target="_blank" rel="noopener">PDF Page 4</a></article>
+    <article class="card" id="sub-assembly"><h2>Step 1 - Sub Assembly</h2><p>Record completed sub-assembly sets, operator, notes, scrap/rework, and blockers.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=5" target="_blank" rel="noopener">PDF Page 5</a></article>
+    <article class="card" id="main-assembly"><h2>Step 2 - Main Assembly</h2><p>Consume sub-assemblies, assign/verify serials, record build notes, and register production.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=6" target="_blank" rel="noopener">PDF Page 6</a></article>
+    <article class="card" id="pretest-housing"><h2>Step 3 - Pre-Test / Housing</h2><p>Record bench pre-test, housing, evidence photo/notes, and Ready for Testing handoff.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=7" target="_blank" rel="noopener">PDF Page 7</a></article>
+    <article class="card" id="testing-quality"><h2>Testing / Quality</h2><p>Record quality checks, pass/fail, measures, pictures, worksheets, and alerts.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=8" target="_blank" rel="noopener">PDF Page 8</a></article>
+    <article class="card" id="testing-alerts"><h2>Quality Alerts</h2><p>Hold failed units until quality alerts are resolved and retest evidence passes.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=9" target="_blank" rel="noopener">PDF Page 9</a></article>
+    <article class="card" id="shipping-handoff"><h2>Shipping Handoff</h2><p>Verify serials, release status, no open blocking alerts, and validate final move.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=10" target="_blank" rel="noopener">PDF Page 10</a></article>
+    <article class="card" id="data-standards"><h2>Data Standards</h2><p>Batch ID, serials, note format, handoff phrases, and global stop rule.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=11" target="_blank" rel="noopener">PDF Page 11</a></article>
+    <article class="card" id="screen-map"><h2>Screen Map</h2><p>Fast Odoo click-path reference by department.</p><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf#page=12" target="_blank" rel="noopener">PDF Page 12</a></article>
+  </section>
+  <section class="viewer" id="pdf-viewer"><div class="viewer-head"><h2>Embedded PDF</h2><a class="btn purple" href="TCG_Machines_Odoo_User_Guide.pdf" target="_blank" rel="noopener">Open in New Tab</a></div><iframe src="TCG_Machines_Odoo_User_Guide.pdf#page=1" title="TCG Machines Odoo User Guide PDF"></iframe></section>
+  <p class="note">Browser PDF page anchors may vary by device. The section cards above still provide the correct guide page numbers.</p>
+  <footer class="footer">TCG Machines Production Dashboard</footer>
+</div>
+</body>
+</html>
